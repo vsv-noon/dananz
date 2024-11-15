@@ -1,0 +1,38 @@
+@use './../../styles/functions' as f;
+
+.header {
+  max-width: f.rem-calc(1440);
+  margin: 0 auto;
+  padding: f.rem-calc(40) f.rem-calc(120);
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: f.rem-calc(1);
+  font-size: f.rem-calc(16);
+  font-weight: 400;
+  line-height: 1.6 ;
+
+  li {
+    display: flex;
+  }
+  
+  li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: f.rem-calc(142);
+    height: f.rem-calc(49);
+  }
+  li:last-child a {
+    margin-left: f.rem-calc(50);
+    color: var(--grayscale-white);
+    background-color: var(--primary-blue-100);
+  }
+
+  .active {
+    font-weight: 600;
+  }
+}

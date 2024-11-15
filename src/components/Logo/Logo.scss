@@ -1,0 +1,39 @@
+@use './../../styles/functions' as f;
+
+
+.logo {
+  position: relative;
+  width: f.rem-calc(126);
+  height: f.rem-calc(54);
+  cursor: pointer;
+
+  h2 {
+    position: relative;
+    font-weight: 700;
+    font-size: f.rem-calc(31);
+    line-height: 1.7;
+    color: var(--grayscale-black);
+  }
+  
+  h2::before {
+    position: absolute;
+    content: url(./../../assets/icons/vector_286.svg);
+    height: f.rem-calc(15);
+    top: f.rem-calc(5);
+    right: f.rem-calc(28);
+  }
+
+  &::before {
+    position: absolute;
+    content: url(./../../assets/icons/vector_288.svg);
+    bottom: 0;
+    right: f.rem-calc(65);
+  }
+
+  &::after {
+    position: absolute;
+    content: url(./../../assets/icons/vector_289.svg);
+    bottom: 0;
+    right: f.rem-calc(30);
+  }
+}
