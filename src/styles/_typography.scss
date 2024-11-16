@@ -1,0 +1,9 @@
+@use './functions' as f;
+
+.h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: f.rem-calc(72);
+  line-height: 1.4;
+  color: var(--grayscale-50);
+}

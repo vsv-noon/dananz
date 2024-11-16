@@ -1,7 +1,12 @@
+import Hero from "../../components/Hero/Hero";
+
+import "./Home.scss";
 
 const Home = () => {
   return (
-    <main className="main">Home</main>
+    <main className="main">
+      <Hero />
+    </main>
   )
 }
 

@@ -1,1 +1,6 @@
+@use './../../styles/functions' as f;
 
+.main {
+  margin: 0 auto;
+  max-width: f.rem-calc(1440);  
+}

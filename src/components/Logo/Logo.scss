@@ -17,23 +17,31 @@
   
   h2::before {
     position: absolute;
-    content: url(./../../assets/icons/vector_286.svg);
+    content: url(./../../assets/icons/vector_290.svg);
     height: f.rem-calc(15);
-    top: f.rem-calc(5);
+    top: f.rem-calc(10);
     right: f.rem-calc(28);
   }
 
-  &::before {
-    position: absolute;
-    content: url(./../../assets/icons/vector_288.svg);
-    bottom: 0;
-    right: f.rem-calc(65);
-  }
+  // h2::before {
+  //   position: absolute;
+  //   content: url(./../../assets/icons/vector_286.svg);
+  //   height: f.rem-calc(15);
+  //   top: f.rem-calc(5);
+  //   right: f.rem-calc(28);
+  // }
 
-  &::after {
-    position: absolute;
-    content: url(./../../assets/icons/vector_289.svg);
-    bottom: 0;
-    right: f.rem-calc(30);
-  }
+  // &::before {
+  //   position: absolute;
+  //   content: url(./../../assets/icons/vector_288.svg);
+  //   bottom: 0;
+  //   right: f.rem-calc(65);
+  // }
+
+  // &::after {
+  //   position: absolute;
+  //   content: url(./../../assets/icons/vector_289.svg);
+  //   bottom: 0;
+  //   right: f.rem-calc(30);
+  // }
 }
