@@ -11,5 +11,5 @@ export default defineConfig({
       }
     }
   },
-  base: '/dananz',
+  base: '/dananz/',
 })
