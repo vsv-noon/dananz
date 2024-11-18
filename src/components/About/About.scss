@@ -1,1 +1,21 @@
 @use './../../styles/functions' as f;
+
+#about {
+  max-width: f.rem-calc(1440);
+  margin: 0 auto;
+  padding: f.rem-calc(40) f.rem-calc(120);
+
+  .h3 {
+    margin-bottom: f.rem-calc(20);
+  }
+
+  .h2 {
+    margin-bottom: f.rem-calc(60);
+  }
+
+  .about-bg {
+    height: f.rem-calc(525);
+    background-image: url(./../../assets/images/about-bg.jpg);
+    background-repeat: no-repeat;
+  }
+}
