@@ -1,0 +1,20 @@
+.logo {
+  position: relative;
+  width: 7.875rem;
+  height: 3.375rem;
+  cursor: pointer;
+}
+.logo h2 {
+  position: relative;
+  font-weight: 700;
+  font-size: 1.9375rem;
+  line-height: 1.7;
+  color: var(--grayscale-black);
+}
+.logo h2::before {
+  position: absolute;
+  content: url(./../../assets/icons/vector_290.svg);
+  height: 0.9375rem;
+  top: 0.625rem;
+  right: 1.75rem;
+}/*# sourceMappingURL=Logo.css.map */

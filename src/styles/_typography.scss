@@ -11,17 +11,17 @@
 .h2 {
   font-family: var(--font-family);
   font-style: normal;
-  font-weight: 600;
-  font-size: f.rem-calc(36);
-  line-height: 1.7;
-  color: var(--grayscale-50);
+  font-weight: 500;
+  font-size: f.rem-calc(16);
+  line-height: 1.5;
+  color: var(--grayscale-black);
 }
 
 .h3 {
   font-family: var(--font-family);
   font-style: normal;
-  font-weight: 500;
-  font-size: f.rem-calc(16);
-  line-height: 1.5;
-  color: var(--grayscale-black);
+  font-weight: 600;
+  font-size: f.rem-calc(36);
+  line-height: 1.7;
+  color: var(--grayscale-50);
 }

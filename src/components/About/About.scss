@@ -3,19 +3,82 @@
 #about {
   max-width: f.rem-calc(1440);
   margin: 0 auto;
-  padding: f.rem-calc(40) f.rem-calc(120);
+  padding: f.rem-calc(105) f.rem-calc(120);
+  background-color: var(--grayscale-white);
 
-  .h3 {
+  .h2 {
+    position: relative;
     margin-bottom: f.rem-calc(20);
   }
 
-  .h2 {
+  .h2::after {
+    content: '';
+    position: absolute;
+    width: 529px;
+    height: 0px;
+    top: f.rem-calc(8);
+    left: f.rem-calc(70);
+    border: f.rem-calc(2) solid var(--grayscale-black);
+  }
+
+  .h3 {
     margin-bottom: f.rem-calc(60);
   }
 
-  .about-bg {
-    height: f.rem-calc(525);
-    background-image: url(./../../assets/images/about-bg.jpg);
-    background-repeat: no-repeat;
+  h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--grayscale-black);
+  }  
+
+  p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--grayscale-10);
+  }
+
+  .about-content {
+    position: relative;
+    display: flex;
+
+    .about-bg {
+      height: f.rem-calc(525);
+      width: 80%;
+      background-image: url(./../../assets/images/about-bg.jpg);
+      background-repeat: no-repeat;
+    }
+
+    .about-learn {
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      padding-top: f.rem-calc(197);
+      padding-left: f.rem-calc(14);
+      gap: f.rem-calc(40);
+
+      button {
+        width: f.rem-calc(142);
+        height: f.rem-calc(49);
+        color: var(--grayscale-white);
+        background-color: var(--primary-blue-100);
+        border: none;
+        cursor: pointer;
+      }
+    }
+
+    .about-ceo {
+      position: absolute;
+      display: flex;
+      gap: f.rem-calc(20);
+      top: f.rem-calc(25);
+      right: f.rem-calc(116);
+      padding: f.rem-calc(18) f.rem-calc(52) f.rem-calc(18) f.rem-calc(20);      
+      background-color: var(--grayscale-white);
+      box-shadow: 10px 10px 40px 0 rgba(0, 0, 0, 0.05);        
+    }
   }
 }

@@ -1,0 +1,24 @@
+#about {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 2.5rem 7.5rem;
+}
+#about .h3 {
+  margin-bottom: 1.25rem;
+}
+#about .h2 {
+  margin-bottom: 3.75rem;
+}
+#about .about-content {
+  position: relative;
+}
+#about .about-content .about-bg {
+  height: 32.8125rem;
+  background-image: url(./../../assets/images/about-bg.jpg);
+  background-repeat: no-repeat;
+}
+#about .about-content .about-ceo {
+  position: absolute;
+  top: 0.625rem;
+  right: 12.5rem;
+}/*# sourceMappingURL=About.css.map */
